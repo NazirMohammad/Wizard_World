@@ -3,20 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="16dp"
+    android:layout_marginStart="0dp"
     android:layout_marginTop="8dp"
     android:layout_marginEnd="16dp">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="10dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+
 
 
         <LinearLayout
@@ -28,13 +19,23 @@
             android:layout_marginLeft="25dp">
 
 
+
+
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:id="@+id/imageView"
+                android:elevation="12dp"
+                app:cardCornerRadius="40dp"
+                android:layout_centerHorizontal="true"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="1.9"
+
 
 
                 />
+
 
 
             <TextView
@@ -77,14 +78,8 @@
                     android:gravity="center"
                     android:text="TextView" />
 
-                <TextView
-                    android:id="@+id/people_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:gravity="center"
-                    android:textColor="@color/black"
-                    android:text="TextView" />
+
+
                 <TextView
                     android:id="@+id/people_4"
                     android:layout_width="match_parent"
@@ -100,6 +95,7 @@
 
 
             </LinearLayout>
+
             </LinearLayout>
 
 
@@ -121,6 +117,6 @@
 
 
 
-    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
