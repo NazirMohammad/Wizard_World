@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_wizard">
+
+    <fragment
+        android:id="@+id/fragment_wizard"
+        android:name="com.example.wizard_world.ui.wizard.WizardFragment"
+        android:label="@string/menu_wizard"
+        tools:layout="@layout/fragment_wizard" />
+
+    <fragment
+        android:id="@+id/fragment_houses"
+        android:name="com.example.wizard_world.ui.houses.HousesFragment"
+        android:label="@string/menu_houses"
+        tools:layout="@layout/fragment_house" />
+
+    <fragment
+        android:id="@+id/fragment_feedback"
+        android:name="com.example.wizard_world.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/fragment_elixirs"
+        android:name="com.example.wizard_world.ui.elixirs.ElixirsFragment"
+        android:label="@string/menu_elixirs"
+        tools:layout="@layout/fragment_elixirs" />
+    <fragment
+        android:id="@+id/fragment_spells"
+        android:name="com.example.wizard_world.ui.spells.SpellsFragment"
+        android:label="@string/menu_spells"
+        tools:layout="@layout/fragment_spells" />
+
+</navigation>

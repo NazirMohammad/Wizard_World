@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fragment_elixirs"
+            android:icon="@drawable/eli_xir"
+            android:title="@string/menu_elixirs" />
+        <item
+            android:id="@+id/fragment_feedback"
+            android:icon="@drawable/ffeed_back"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/fragment_houses"
+            android:icon="@drawable/house_estate"
+            android:title="@string/menu_houses" />
+        <item
+            android:id="@+id/fragment_spells"
+            android:icon="@drawable/pro_perty"
+            android:title="@string/menu_spells" />
+
+        <item
+            android:id="@+id/fragment_wizard"
+            android:icon="@drawable/house_estate"
+            android:title="@string/menu_wizard" />
+
+    </group>
+</menu>
